@@ -85,7 +85,7 @@ def featured_image(browser):
 def mars_facts():
     # Add try/except for error handling
     try:
-        # use 'read_html" to scrape the facts table into a dataframe
+        # Use 'read_html" to scrape the facts table into a dataframe
         df = pd.read_html('https://galaxyfacts-mars.com')[0]
     
     except BaseException:
